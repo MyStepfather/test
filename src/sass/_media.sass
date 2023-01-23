@@ -1,0 +1,169 @@
+@media (max-width: 1200px)
+    .menu
+        &_item
+            padding-right: 18px
+        &_link
+            font-size: 13px
+    .promo
+        &_header
+            font-size: 50px
+
+@media (max-width: 991px)
+    .menu
+        &_item
+            padding-right: 5px
+        &_link
+            font-size: 11px
+    .subheader
+        &_logo
+            img
+                width: 100%
+        &_official
+            font-size: 11px
+        &_phone
+            font-size: 20px
+        &_btn
+            margin-top: 20px
+            height: 44px
+    .mobile
+        &_item
+            width: 224px
+    .promo
+        &_header
+            font-size: 40px
+        &_subheader
+            font-size: 30px
+            margin-top: 10px
+    .reason .reasons_container .reasons        
+        flex-direction: column
+        align-items: center
+        justify-content: flex-start
+    .reason .reasons_container .reasons .ico_reas
+        margin-right: 0
+    .reason .reasons_container .reasons .txt_reas
+        margin-top: 20px
+
+@media ( max-width: 767px)
+    .menu
+        position: fixed
+        top: 0
+        left: -100%
+        width: 50%
+        height: 100vh
+        padding: 20px 15px
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        background-color: rgba(0, 0, 0, .8)
+        transition: 0.6s all
+        &_active
+            left: 0
+        &_item
+            padding-right: 0
+            border: none
+            margin: 10px
+        &_link
+            font-size: 20px
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 26px
+        span
+            transition: 0.6s
+            display: block
+            height: 2px
+            width: 100%
+            background-color: #fff
+            margin-bottom: 2px
+            transition: 0.6s all
+        &_active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+    .xs-hidden
+        display: none    
+    .xs-visible
+        display: block
+    .subheader
+        &_phone
+            display: block
+            margin-top: 10px
+            color: #fff
+            font-weight: 400
+            font-size: 16px
+            text-transform: uppercase
+            text-align: center
+        &_btn
+            display: block
+            width: 200px
+            height: 40px
+            margin: 0 auto   
+            margin-top: 10px
+    .promo
+        &_header
+            font-size: 40px
+            line-height: 45px
+@media (max-width: 575px)
+    nav
+        height: 30px
+    header
+        height: 30px
+    .subheader
+        top: 30px
+        height: 60px
+        &_official
+            display: none
+        &_logo
+            margin-top: 16px
+        &_btn
+            width: 110px
+            height: 26px
+            font-size: 10px
+            margin-top: 0px
+        &_phone
+            font-size: 12px
+    .promo
+        min-height: 400px
+        padding: 111px 0 35px 0
+        &_desc
+            display: none
+        &_header
+            font-size: 30px
+            padding: 0 24px
+            line-height: 35px
+        &_subheader
+            font-size: 20px
+            margin-top: 33px
+            padding: 0 10px
+            line-height: 29px
+        &_btn
+            width: 210px
+            height: 50px
+            margin-top: 72px
+    .menu
+        width: 85%
+    .reason
+        padding: 0 0 36px
+    .reasons_container
+            margin-top: 10px
+    .title
+        width: auto
+        height: auto
+        font-size: 16px
+        margin-top: 15px
+        line-height: 15px        
+    .reason .reasons_container .reasons .ico_reas
+        width: 100px
+        height: 100px
+    .reason .reasons_container .reasons .txt_reas
+        margin-top: 25px
+    .reason .reasons_container .reasons .txt_reas .title_reas
+        font-size: 16px
